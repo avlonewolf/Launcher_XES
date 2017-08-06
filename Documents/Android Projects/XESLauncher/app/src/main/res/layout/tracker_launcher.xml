@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="240px"
+    android:layout_height="240px"
+    android:id="@+id/reltrack"
+    android:background="#fff"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="160px"
+        android:maxWidth="160px"
+        android:minHeight="160px"
+        android:minWidth="160px"
+        android:background="#fff"
+        android:src="@drawable/map160"/>
+</RelativeLayout>

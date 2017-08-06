@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="240px"
+    android:layout_height="240px"
+    android:id="@+id/reltalk"
+    android:background="#fff"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="160px"
+        android:layout_height="100px"
+        android:layout_centerInParent="true"
+        android:enabled="true"
+        android:id="@+id/activatebutton"
+        android:textColor="#ac0505"
+        android:background="#666"
+        android:text="ACTIVATE" />
+
+</RelativeLayout>
